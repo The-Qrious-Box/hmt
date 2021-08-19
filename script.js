@@ -1,5 +1,5 @@
 const particles = [];
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 80; i++) {
   particles.push({
     x: Math.random() > .5 ? 0 : window.innerWidth,
     y: window.innerHeight / 2,
@@ -7,7 +7,7 @@ for (let i = 0; i < 100; i++) {
     vy: Math.random() * 2 - 1,
     history: [],
     size: 4 + Math.random() * 6,
-    color: Math.random() > .5 ? "#000000" : Math.random() > .5 ? "#FF0000" : "#FFFF00" });
+    color: Math.random() > .5 ? "#FF4848" : Math.random() > .5 ? "#9DDAC6" : "#FFFF00" });
 
 }
 
